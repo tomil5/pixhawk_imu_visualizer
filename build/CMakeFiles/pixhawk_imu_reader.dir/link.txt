@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/pixhawk_imu_reader.dir/src/pixhawk_imu_reader.cpp.o -o pixhawk_imu_reader  -lpthread 

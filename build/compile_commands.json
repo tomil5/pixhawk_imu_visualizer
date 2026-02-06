@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/artem/pixhawk_imu_visualizer/build",
-  "command": "/usr/bin/g++  -I/home/artem/pixhawk_imu_visualizer/c_library_v2 -g -std=gnu++11 -o CMakeFiles/pixhawk_imu_reader.dir/src/pixhawk_imu_reader.cpp.o -c /home/artem/pixhawk_imu_visualizer/src/pixhawk_imu_reader.cpp",
-  "file": "/home/artem/pixhawk_imu_visualizer/src/pixhawk_imu_reader.cpp",
-  "output": "CMakeFiles/pixhawk_imu_reader.dir/src/pixhawk_imu_reader.cpp.o"
-}
-]

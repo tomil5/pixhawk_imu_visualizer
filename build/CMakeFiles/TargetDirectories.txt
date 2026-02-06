@@ -1,3 +1,0 @@
-/home/artem/pixhawk_imu_visualizer/build/CMakeFiles/pixhawk_imu_reader.dir
-/home/artem/pixhawk_imu_visualizer/build/CMakeFiles/edit_cache.dir
-/home/artem/pixhawk_imu_visualizer/build/CMakeFiles/rebuild_cache.dir
