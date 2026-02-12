@@ -9,7 +9,7 @@
 #include <sys/time.h>
 #include <signal.h>
 
-// MAVLink заголовки - ИСПРАВЛЕНО!
+// MAVLink заголовки
 #include <common/mavlink.h>
 
 // ---------- НАСТРОЙКИ ----------
