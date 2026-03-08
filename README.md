@@ -2,7 +2,7 @@
 
 Программа для чтения данных IMU (акселерометр, гироскоп, магнитометр) с автопилота Pixhawk через MAVLink протокол и сохранения их в CSV файл.
 
-## 📋 Описание
+## Описание
 
 Это C++ приложение подключается к автопилоту Pixhawk через USB порт, получает данные с датчиков IMU в реальном времени и записывает их в CSV файл для последующего анализа.
 
@@ -11,14 +11,14 @@
 - Гироскоп (X, Y, Z) - угловые скорости в milli-rad/s
 - Магнитометр (X, Y, Z) - магнитное поле в milli-Gauss
 
-## 🖥️ Требования
+## Требования
 
 - **ОС:** Linux Mint, Ubuntu 20.04+ или другие Debian-based дистрибутивы
 - **Компилятор:** GCC/G++ с поддержкой C++11
 - **CMake:** версия 3.10 или выше
 - **Оборудование:** Pixhawk автопилот с USB подключением
 
-## 📦 Установка зависимостей
+## Установка зависимостей
 
 ### Linux Mint / Ubuntu
 ```bash
@@ -36,7 +36,7 @@ sudo usermod -a -G dialout $USER
 sudo reboot
 ```
 
-## 🚀 Установка и сборка
+## Установка и сборка
 ```bash
 # 1. Клонируем репозиторий
 git clone https://github.com/tomil5/pixhawk_imu_visualizer.git
@@ -58,7 +58,7 @@ make
 
 После успешной компиляции в папке `build/` появится исполняемый файл `pixhawk_imu_reader`.
 
-## ▶️ Запуск
+## Запуск
 
 ### 1. Подключите Pixhawk к компьютеру через USB
 
@@ -110,7 +110,7 @@ Program terminated. Total messages: 1523
 Data saved to imu_log.csv
 ```
 
-## 📊 Формат CSV файла
+## Формат CSV файла
 
 Данные сохраняются в файл `imu_log.csv` в следующем формате:
 ```csv
@@ -126,7 +126,7 @@ timestamp,AX_raw,AY_raw,AZ_raw,GX_raw,GY_raw,GZ_raw,MX_raw,MY_raw,MZ_raw
 - `GX_raw, GY_raw, GZ_raw` - угловые скорости в milli-rad/s (разделить на 1000 для рад/с)
 - `MX_raw, MY_raw, MZ_raw` - магнитное поле в milli-Gauss (разделить на 1000 для Gauss)
 
-## ⚙️ Настройки
+## Настройки
 
 Вы можете изменить настройки в файле `src/imu_reader.cpp`:
 ```cpp
@@ -142,7 +142,7 @@ cd build
 make
 ```
 
-## 🔧 Решение проблем
+## Решение проблем
 
 ### Ошибка: "Error opening port: /dev/ttyACM0"
 
@@ -202,7 +202,7 @@ cmake ..
 make
 ```
 
-## 📁 Структура проекта
+## Структура проекта
 ```
 pixhawk_imu_visualizer/
 ├── build/                  # Папка сборки (создаётся при компиляции)
@@ -214,11 +214,3 @@ pixhawk_imu_visualizer/
 ├── .gitignore
 └── README.md
 ```
-
-## 📝 Лицензия
-
-MIT License
-
-## 📧 Контакты
-
-GitHub: [@tomil5](https://github.com/tomil5)
